@@ -4,6 +4,18 @@
     color: rgb(255, 255, 255)
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(175, 175, 175);
+}
+
 body {
     background: rgb(0, 0, 0);
 }
