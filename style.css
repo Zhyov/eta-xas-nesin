@@ -59,12 +59,12 @@ h1,h3,h4,h5,a {
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 1100%;
+    width: 500%;
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(100, 100, 100);
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 5px;
+    padding: 4%;
     position: absolute;
     z-index: 1;
   }
