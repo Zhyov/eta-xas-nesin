@@ -7,242 +7,112 @@
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon.ico">
-    <title>e'ta xas pu y'ape' Don</title>
+    <title>e'ta xas ne'sin</title>
 </head>
 <body>
     <div id="title">
-        <h1>e'ta xas pu y'ape' Don <span class="spell">(e'ta xas Dictionary)</span></h1>
+        <h1>e'ta xas ne'sin <span class="spell">(e'ta xas Guide)</span></h1>
         <h3>tan <a href="https://github.com/Zhyov" target="_blank">jun "Z~jov"</a> <span class="spell">(by Zhyov)</span></h3>
     </div>
-    <div id="sc">
-        <span id="wc"><span id="wca1">amount</span>/<span id="wca2">amount</span> Done'</span> <span class="spell">(<span id="wca3">amount</span>/<span id="wca4">amount</span> words)</span><br><br>
-        <input type="text" id="searchBar" placeholder="o SuO'a...">
+    <div id="main">
+        <h3>
+            Content:
+        </h3>
+        <ol>
+            <li><a href="#ap"><h4>Alphabet & Phonology</h4></a></li>
+                <ol>
+                    <li><a href="#a"><h5>Alphabet</h5></a></li>
+                    <li><a href="#p"><h5>Phonology</h5></a></li>
+                </ol>    
+            <li><a href="#g"><h4>Grammar</h4></a></li>
+                <ol>
+                    <li><a href="#s"><h5>Grammar Symbols</h5></a></li>
+                    <li><a href="#r"><h5>Grammar Rules</h5></a></li>
+                </ol>   
+            <li><a href="#w"><h4>Words</h4></a></li>
+        </ol>
+        <h3 id="ap">
+            Alphabet & Phonology
+        </h3>
+        <h5 id="a">Alphabet:</h5>
+        The e'ta xas alphabet has 47 letters being those 38 pulmonic consonants, 8 vowels and 1 non-pulmonic consonant.<br><br>The alphabet is as follows:<br>
+        a, a', p, b, B, V, e, e', s, s', S, z, z', Z, t, t', T, O, d, d', D, f, v, h, x, i, i', j, J, k, g, y, l, y', m, m', n, n', N, o, r, r', R, u, w, O' and -<br><br>
+        e'ta xas does not have an uppercase version for its letters, thus, there is no need to capitalize the letter at the start because it may end up referring to another sound.
+        <h5 id="p">Phonology:</h5>
+        Some words are pronounced like their <div class="tooltip">IPA<span class="tooltiptext">The International Phonetic Alphabet (IPA) is an alphabetic system of phonetic notation based primarily on the Latin script.</span></div> counterpart.<br><br>
+        Here will be a list of the letters that do not sound the same as their IPA counterpart:
+        <ul>
+            <li>a' = /ä/</li>
+            <li>B = /ʙ/</li>
+            <li>V = /ⱱ̟ /</li>
+            <li>e = /e̞/</li>
+            <li>e' = /ə/</li>
+            <li>S = /ʃ/</li>
+            <li>s' = /ʂ/</li>
+            <li>z' = /ʒ/</li>
+            <li>Z = /ʐ/</li>
+            <li>t' = /t͡s/</li>
+            <li>T = /t͡ʃ/</li>
+            <li>O = /θ/</li>
+            <li>d' = /ð/</li>
+            <li>D = /d͡ʒ/</li>
+            <li>i' = /ɪ/</li>
+            <li>J = /ʝ/</li>
+            <li>y = /ɣ/</li>
+            <li>y' = /ʎ/</li>
+            <li>m' = /ɱ/</li>
+            <li>n' = /ɲ/</li>
+            <li>N = /ŋ/</li>
+            <li>o = /o̞/</li>
+            <li>r' = /ɾ/</li>
+            <li>R = /ɹ/</li>
+            <li>O' = /ŋ͡ʘ/</li>
+            <li>- = /ʔ/</li>
+        </ul>
+        The format of syllables in e'ta xas is (C/K) V (C/CV/KV) for the first syllable and C/K V (C/CV/KV) for the rest. The symbols are C = Consonant, V = Vowel, K = Click and (◌) = Optional.<br><br>
+        In e'ta xas, the first syllable is always stressed.
+        <h3 id="g">
+            Grammar
+        </h3>
+        <h5 id="s">Grammar Symbols:</h5>
+        <ul>
+            <li>◌- = prefix</li>
+            <li>-◌ = suffix</li>
+            <li>~◌ = suffix replacing the last letter of the word (only if the letter is a vowel or if the vowel at the end is the same vowel as the modifier then add a glottal stop)</li>
+            <li>(◌) = information, example, indicator or joiner</li>
+            <li>[◌] = definition</li>
+            <li>-◌- = literal translation</li>
+            <li>~◌~ = translation</li>
+            <li>/◌/ = pronounciation</li>
+            <li>{◌} = word placeholder</li>
+            <li>\◌\ = text in e'ta xas</li>
+        </ul>
+        <h5 id="r">Grammar Rules:</h5>
+        <ul>
+            <li>i-{verb} = past tense</li>
+            <li>a-{verb} = present tense</li>
+            <li>u-{verb} = future tense</li>
+            <li>It is also grammatically correct to not add a grammatical time to verbs in e'ta xas. </li>
+            <li>{noun}~e' = neutral plural</li>
+            <li>It is also grammatically correct to not add a grammatical number to nouns in e'ta xas.</li>
+            <li>◌~◌ = letter connector (Example: \us~t\ /us͡t/ [to use, with, by means of] connects the s and t in the syllable. Only consonant + consonant and vocal + vocal is allowed. If the letters are not from the same syllable, using this is grammatically incorrect.)</li>
+            <li>◌-◌ = glottal stop (Example: \s'a-a\ /ʂaʔa/ [inside, interior] makes a stop in between the a's. Only vocal + vocal is allowed. This also counts as a vowel letter connector so it's grammatically correct.)</li>
+            <li>{noun} m'i' {noun/verb/adjective} = {noun} is {noun/adjective/verb} (Example: \me' m'i' jun\ -I (separator) human / person- ~I am a person.~)</li>
+            <li>{noun} m'i' {verb} e' {object} = {noun} is {verb} {object} (Example: \me' m'i' it'~r'un e' ni\ -I (separator) (past of) look (object) this- ~I looked at this.~)</li>
+            <li>{noun} {adjective} = adjective structure (Example: \e'ta apon\ -language good- ~A good language.~)</li>
+            <li>{noun} {wordA} pu {wordB} = division of noun groups (Example: \jun apon mut\ -people (good many)- ~A very good person.~ and \jun apon pu mut\ -(people good) many- ~Many good people.~)</li>
+            <li>o {message} = commanding (Example: \o Si m'i' apon\ -(command) you (separator) good- ~Be good!~)</li>
+            <li>{sentenceA} baS {sentenceB} = In the context of {sentenceA}, {sentenceB} or If {sentenceA}, then {sentenceB} (Example: \tan me' baS le' m'i' ar' Zan Re'n Du~aR\ -because me (context) we (separator) not can continue work- ~Because of me we can not continue to work.~ or ~We can not continue to work because of me~)</li>
+            <li>{text} me' = possesive (Example: \ni m'i' tilo otok me'\ -this (separator) tool talk me- ~This is my phone.~)</li>
+            <li>hin {location} = indicate location or time (using \yo-un\) (Example: \Zowi' m'i' y'ama' hin dime'\ -birds (separator) move (location) sky- ~Birds fly.~ or ~Birds move in the sky.~)</li>
+            <li>When referring to a name or a word that doesn't exist in e'ta xas, you use a headnoun (a describer of the element that is being referred to, Example: \jun "Z~jov"\ -human "Zhyov"- ~Zhyov~) followed by the word's pronounciation (in the native language) transcribed to e'ta xas. (Example: \e'ta "es~pan'ol"\ -language "español"- ~Spanish~)</li>
+        </ul>
+        <h3 id="w">
+            Words
+        </h3>
+        There are (currently) 203 words in e'ta xas. To compensate for the low amount of words, most words are <div class="tooltip">polysemous<span class="tooltiptext">Polysemy is the capacity for a sign to have multiple meanings.</span></div>.<br>
+        <a href="https://zhyov.github.io/eta-xas-pu-yape-Don/dictionary.html">Click here to go to the dictionary.</a>
     </div>
-    <div id="searchResults">
-
-    </div>
-    <div id="container" class="hide">
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">Si</span><br><span class="spell">/ʃi/</span><span class="def">you</span><span class="cf">None</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">me'</span><br><span class="spell">/mə/</span><span class="def">me, I</span><span class="cf">Toki Pona "mi" ← Esperanto "mi" ← Romance "m-"</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">otok</span><br><span class="spell">/o̞to̞k/</span><span class="def">to talk, to communicate, to speak, to say</span><span class="cf">Toki Pona "toki" ← Tok Pisin "tok" ← English "talk"</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">apon</span><br><span class="spell">/apo̞n/</span><span class="def">good</span><span class="cf">Toki Pona "pona" ← Esperanto "bona"</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">miOa</span><br><span class="spell">/miθa/</span><span class="def">to fix, to repair</span><span class="cf">None</span></button>
-        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">suxi</span><br><span class="spell">/suxi/</span><span class="def">simple</span><span class="cf">None</span></button>
-        <button data-sortkey="i'" onclick="toggleVisibility(this)"><span class="word">i'ke'</span><br><span class="spell">/ɪkə/</span><span class="def">bad</span><span class="cf">Toki Pona "ike" ← Finnish "ilkeä "</span></button>
-        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pa'ke'l</span><br><span class="spell">/päkəl/</span><span class="def">to break, (curse word)</span><span class="cf">Toki Pona "pakala" ← Tok Pisin "bagarap" ← English "bugger up"</span></button>
-        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xas</span><br><span class="spell">/xas/</span><span class="def">complicated</span><span class="cf">None</span></button>
-        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'ta</span><br><span class="spell">/əta/</span><span class="def">language</span><span class="cf">None</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kot'a</span><br><span class="spell">/ko̞t͡sa/</span><span class="def">consonant</span><span class="cf">None</span></button>
-        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Beka'</span><br><span class="spell">/ʙekä/</span><span class="def">vowel</span><span class="cf">None</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kiO'a</span><br><span class="spell">/kiŋ͡ʘa/</span><span class="def">to click</span><span class="cf">None</span></button>
-        <button data-sortkey="D" onclick="toggleVisibility(this)"><span class="word">Don</span><br><span class="spell">/d͡ʒo̞n/</span><span class="def">word</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">ne'sin</span><br><span class="spell">/nəsin/</span><span class="def">way, guide, path, method, help</span><span class="cf">Toki Pona "nasin" ← Serbo-Croatian "начин / način"</span></button>
-        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'iSi</span><br><span class="spell">/ɲiʃi/</span><span class="def">format</span><span class="cf">None</span></button>
-        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e't</span><br><span class="spell">/ət/</span><span class="def">mouth</span><span class="cf">Toki Pona "uta" ← Serbo-Croatian "уста/usta"</span></button>
-        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yanal</span><br><span class="spell">/ɣanal/</span><span class="def">channel</span><span class="cf">English "channel"</span></button>
-        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Bopan</span><br><span class="spell">/ʙo̞pan/</span><span class="def">to salute, hello, welcome</span><span class="cf">Esperanto "bonan"</span></button>
-        <button data-sortkey="v" onclick="toggleVisibility(this)"><span class="word">ve'sa</span><br><span class="spell">/vəsa/</span><span class="def">everyone</span><span class="cf">Russian "все / vse"</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">al</span><br><span class="spell">/al/</span><span class="def">everything, infinite</span><span class="cf">English "all"</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kor'up</span><br><span class="spell">/ko̞ɾup/</span><span class="def">group, community, society</span><span class="cf">English "group"</span></button>
-        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Zan</span><br><span class="spell">/ʐan/</span><span class="def">to be able to, can, possible</span><span class="cf">Toki Pona "ken" ← English "can"</span></button>
-        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'~r'un</span><br><span class="spell">/t͡s͡ɾun/</span><span class="def">to look</span><span class="cf">None</span></button>
-        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'</span><br><span class="spell">/ə/</span><span class="def">(before the direct object)</span><span class="cf">Toki Pona "e"</span></button>
-        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'i'</span><br><span class="spell">/ɱɪ/</span><span class="def">(between any subject)</span><span class="cf">Toki Pona "li" ← Esperanto "li" ← Latin "ille"</span></button>
-        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'ape'</span><br><span class="spell">/ʎapə/</span><span class="def">flat object, paper, card, document, book, record, website</span><span class="cf">Toki Pona "lipu" ← Finnish "lippu"</span></button>
-        <button data-sortkey="d'" onclick="toggleVisibility(this)"><span class="word">d'a</span><br><span class="spell">/ða/</span><span class="def">about</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">ni</span><br><span class="spell">/ni/</span><span class="def">that, this</span><span class="cf">Toki Pona "ni"</span></button>
-        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'e'n</span><br><span class="spell">/ɲən/</span><span class="def">here, there</span><span class="cf">None</span></button>
-        <button data-sortkey="T" onclick="toggleVisibility(this)"><span class="word">Ta's</span><br><span class="spell">/t͡ʃäs/</span><span class="def">for</span><span class="cf">None</span></button>
-        <button data-sortkey="V" onclick="toggleVisibility(this)"><span class="word">Ver'a</span><br><span class="spell">/ⱱ̟eɾa/</span><span class="def">but, however, only</span><span class="cf">None</span></button>
-        <button data-sortkey="t" onclick="toggleVisibility(this)"><span class="word">tan</span><br><span class="spell">/tan/</span><span class="def">by, from, because of</span><span class="cf">Toki Pona "tan" ← Cantonese "從 / tsung"</span></button>
-        <button data-sortkey="a'" onclick="toggleVisibility(this)"><span class="word">a'</span><br><span class="spell">/ä/</span><span class="def">(emphasis, emotion or confirmation)</span><span class="cf">Toki Pona "a"</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">ar'</span><br><span class="spell">/aɾ/</span><span class="def">no, not</span><span class="cf">Toki Pona "ala" ← Georgian "არა / ara"</span></button>
-        <button data-sortkey="z" onclick="toggleVisibility(this)"><span class="word">zad</span><br><span class="spell">/zad/</span><span class="def">zero, nothing, none</span><span class="cf">None</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">un</span><br><span class="spell">/un/</span><span class="def">one, single</span><span class="cf">Spanish "uno"</span></button>
-        <button data-sortkey="d" onclick="toggleVisibility(this)"><span class="word">du</span><br><span class="spell">/du/</span><span class="def">two</span><span class="cf">Toki Pona "tu" ← English "two" / Esperanto "du"</span></button>
-        <button data-sortkey="t" onclick="toggleVisibility(this)"><span class="word">t~r'a</span><br><span class="spell">/t͡ɾa/</span><span class="def">stairs, square, block, corner, cube</span><span class="cf">None</span></button>
-        <button data-sortkey="l" onclick="toggleVisibility(this)"><span class="word">lukne'</span><br><span class="spell">/luknə/</span><span class="def">five</span><span class="cf">Toki Pona "luka" ← Serbo-Croatian "рука / ruka"</span></button>
-        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'an</span><br><span class="spell">/t͡san/</span><span class="def">twenty</span><span class="cf">None</span></button>
-        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'l</span><br><span class="spell">/əl/</span><span class="def">a hundred</span><span class="cf">Toki Pona "ale" / "ali" ← Dutch "alle"</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">mut</span><br><span class="spell">/mut/</span><span class="def">many, very, a lot</span><span class="cf">Toki Pona "mute" ← Esperanto "multe" ← Latin "multus"</span></button>
-        <button data-sortkey="r'" onclick="toggleVisibility(this)"><span class="word">r'upta</span><br><span class="spell">/ɾupta/</span><span class="def">reptile, amphibian</span><span class="cf">None</span></button>
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">SuO'a</span><br><span class="spell">/ʃuŋ͡ʘa/</span><span class="def">to seek, to search</span><span class="cf">None</span></button>
-        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'n</span><br><span class="spell">/ən/</span><span class="def">or</span><span class="cf">Toki Pona "anu" ← Georgian "ან / an"</span></button>
-        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yen</span><br><span class="spell">/ɣen/</span><span class="def">to choose, to decide</span><span class="cf">None</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">en~t</span><br><span class="spell">/en͡t/</span><span class="def">different, altered, changed</span><span class="cf">Toki Pona "ante" ← Dutch "ander"</span></button>
-        <button data-sortkey="b" onclick="toggleVisibility(this)"><span class="word">but'a</span><br><span class="spell">/but͡sa/</span><span class="def">to keep, to endure</span><span class="cf">None</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">one'n</span><br><span class="spell">/o̞nən/</span><span class="def">to protect, safe</span><span class="cf">None</span></button>
-        <button data-sortkey="R" onclick="toggleVisibility(this)"><span class="word">Re'n</span><br><span class="spell">/ɹən/</span><span class="def">to continue to</span><span class="cf">Toki Pona "awen" ← Dutch "houden"</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">une'</span><br><span class="spell">/unə/</span><span class="def">and, (in between multiple subjects)</span><span class="cf">Toki Pona "en" ← Dutch "en"</span></button>
-        <button data-sortkey="j'" onclick="toggleVisibility(this)"><span class="word">j'unu</span><br><span class="spell">/ʝunu/</span><span class="def">common, general</span><span class="cf">None</span></button>
-        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'as</span><br><span class="spell">/ɱas/</span><span class="def">market, shop, business</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">na~an</span><br><span class="spell">/naan/</span><span class="def">money, currency</span><span class="cf">None</span></button>
-        <button data-sortkey="O" onclick="toggleVisibility(this)"><span class="word">Oonos</span><br><span class="spell">/θo̞no̞s/</span><span class="def">thing, object, matter</span><span class="cf">None</span></button>
-        <button data-sortkey="t" onclick="toggleVisibility(this)"><span class="word">tilo</span><br><span class="spell">/tilo̞/</span><span class="def">tool, device</span><span class="cf">Toki Pona "ilo" ← Esperanto "ilo" ← German "-el"</span></button>
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">Sum</span><br><span class="spell">/ʃum/</span><span class="def">what? which?</span><span class="cf">None</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">o</span><br><span class="spell">/o̞/</span><span class="def">hey! (vocative, imperative, or optative)</span><span class="cf">Toki Pona "o" ← Georgian "-ო / -o"</span></button>
-        <button data-sortkey="s'" onclick="toggleVisibility(this)"><span class="word">s'a-a</span><br><span class="spell">/ʂaʔa/</span><span class="def">inside, interior</span><span class="cf">None</span></button>
-        <button data-sortkey="j" onclick="toggleVisibility(this)"><span class="word">jun</span><br><span class="spell">/jun/</span><span class="def">human, person, somebody</span><span class="cf">Toki Pona "jan" ← Cantonese "人 / jan"</span></button>
-        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pu</span><br><span class="spell">/pu/</span><span class="def">of, (used to divide a second noun group that describes a first noun group), (introduces a genitive noun)</span><span class="cf">Toki Pona "pi" ← Tok Pisin "bilong" ← English "belong"</span></button>
-        <button data-sortkey="b" onclick="toggleVisibility(this)"><span class="word">baS</span><br><span class="spell">/baʃ/</span><span class="def">(between the context phrase and the main sentence)</span><span class="cf">None</span></button>
-        <button data-sortkey="l" onclick="toggleVisibility(this)"><span class="word">le'</span><br><span class="spell">/lə/</span><span class="def">we, us</span><span class="cf">None</span></button>
-        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pa'l</span><br><span class="spell">/päl/</span><span class="def">do, take action on</span><span class="cf">Toki Pona "pali" ← Esperanto "fari"</span></button>
-        <button data-sortkey="l" onclick="toggleVisibility(this)"><span class="word">lus</span><br><span class="spell">/lus/</span><span class="def">to make, to create</span><span class="cf">None</span></button>
-        <button data-sortkey="D" onclick="toggleVisibility(this)"><span class="word">Du~aR</span><br><span class="spell">/d͡ʒu͡aɹ/</span><span class="def">work, work on</span><span class="cf">None</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">us~t</span><br><span class="spell">/us͡t/</span><span class="def">to use, with, by means of</span><span class="cf">English "use"</span></button>
-        <button data-sortkey="O" onclick="toggleVisibility(this)"><span class="word">Oun</span><br><span class="spell">/θun/</span><span class="def">blue, blueish</span><span class="cf">None</span></button>
-        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yiy'a</span><br><span class="spell">/ɣiʎa/</span><span class="def">purple</span><span class="cf">None</span></button>
-        <button data-sortkey="r" onclick="toggleVisibility(this)"><span class="word">rud</span><br><span class="spell">/rud/</span><span class="def">red, reddish</span><span class="cf">English "red"</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">elo</span><br><span class="spell">/elo̞/</span><span class="def">yellow, yellowish</span><span class="cf">English "yellow"</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wa'l</span><br><span class="spell">/wäl/</span><span class="def">white, whiteish</span><span class="cf">Toki Pona "walo" ← Finnish "valko-"</span></button>
-        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pewa</span><br><span class="spell">/pewa/</span><span class="def">black, dark, darkish</span><span class="cf">None</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">on</span><br><span class="spell">/o̞n/</span><span class="def">he, she, they, it</span><span class="cf">Russian "он / on"</span></button>
-        <button data-sortkey="O'" onclick="toggleVisibility(this)"><span class="word">O'u</span><br><span class="spell">/ŋ͡ʘu/</span><span class="def">disgusting, unclean, unsanitary, obscene</span><span class="cf">None</span></button>
-        <button data-sortkey="j" onclick="toggleVisibility(this)"><span class="word">juki</span><br><span class="spell">/juki/</span><span class="def">toxic, sickly</span><span class="cf">Toki Pona "jaki" ← English "yucky"</span></button>
-        <button data-sortkey="h" onclick="toggleVisibility(this)"><span class="word">ho</span><br><span class="spell">/ho̞/</span><span class="def">to have, to hold, to contain</span><span class="cf">Italian "ho"</span></button>
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">Suna'r'</span><br><span class="spell">/ʃunäɾ/</span><span class="def">to carry</span><span class="cf">Spanish "llevar"</span></button>
-        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xul</span><br><span class="spell">/xul/</span><span class="def">fish, marine animal, sea creature</span><span class="cf">None</span></button>
-        <button data-sortkey="h" onclick="toggleVisibility(this)"><span class="word">ham</span><br><span class="spell">/ham/</span><span class="def">to come, to arrive</span><span class="cf">English "come"</span></button>
-        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'ol</span><br><span class="spell">/ɲo̞l/</span><span class="def">future</span><span class="cf">None</span></button>
-        <button data-sortkey="N" onclick="toggleVisibility(this)"><span class="word">Nan</span><br><span class="spell">/ŋan/</span><span class="def">to become</span><span class="cf">None</span></button>
-        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'awi</span><br><span class="spell">/ʎawi/</span><span class="def">manage to, succeed in</span><span class="cf">None</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wa'sa</span><br><span class="spell">/wäsa/</span><span class="def">plant, vegetation, herb, leaf</span><span class="cf">None</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kil</span><br><span class="spell">/kil/</span><span class="def">fruit</span><span class="cf">Toki Pona "kili" ← Georgian "ხილი / xili"</span></button>
-        <button data-sortkey="v" onclick="toggleVisibility(this)"><span class="word">vega't</span><br><span class="spell">/vegät/</span><span class="def">vegetable</span><span class="cf">Spanish "vegetable"</span></button>
-        <button data-sortkey="s'" onclick="toggleVisibility(this)"><span class="word">s'uko</span><br><span class="spell">/ʂuko̞/</span><span class="def">mushroom, fungus</span><span class="cf">Toki Pona "soko" ← Georgian "სოკო / sok'o"</span></button>
-        <button data-sortkey="l" onclick="toggleVisibility(this)"><span class="word">li'wu</span><br><span class="spell">/lɪwu/</span><span class="def">hard object</span><span class="cf">None</span></button>
-        <button data-sortkey="V" onclick="toggleVisibility(this)"><span class="word">Vani'</span><br><span class="spell">/ⱱ̟anɪ/</span><span class="def">rock, stone</span><span class="cf">None</span></button>
-        <button data-sortkey="r'" onclick="toggleVisibility(this)"><span class="word">r'a'n</span><br><span class="spell">/ɾän/</span><span class="def">metal</span><span class="cf">None</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wo</span><br><span class="spell">/wo̞/</span><span class="def">semi-solid, clay, dough, paste</span><span class="cf">Toki Pona "ko" ← Cantonese "膏 / gou"</span></button>
-        <button data-sortkey="i'" onclick="toggleVisibility(this)"><span class="word">i'me'n</span><br><span class="spell">/ɪmən/</span><span class="def">powder</span><span class="cf">None</span></button>
-        <button data-sortkey="a'" onclick="toggleVisibility(this)"><span class="word">a'ka</span><br><span class="spell">/äka/</span><span class="def">air, breath</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">n</span><br><span class="spell">/n/</span><span class="def">(indicates thinking, pondering, recognition, agreement, or humming)</span><span class="cf">Toki Pona "n"</span></button>
-        <button data-sortkey="b" onclick="toggleVisibility(this)"><span class="word">bi'O'i</span><br><span class="spell">/bɪŋ͡ʘi/</span><span class="def">essence, spirit</span><span class="cf">None</span></button>
-        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Zule'</span><br><span class="spell">/ʐulə/</span><span class="def">color, colorful, pigmented, painted</span><span class="cf">Toki Pona "kule" ← Acadian French "couleur"</span></button>
-        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">s~r'a'n</span><br><span class="spell">/s͡ɾän/</span><span class="def">nation, country, tribe</span><span class="cf">Russian "страна / strana"</span></button>
-        <button data-sortkey="N" onclick="toggleVisibility(this)"><span class="word">Niw</span><br><span class="spell">/ŋiw/</span><span class="def">head, mind</span><span class="cf">None</span></button>
-        <button data-sortkey="z'" onclick="toggleVisibility(this)"><span class="word">z'i'm</span><br><span class="spell">/ʒɪm/</span><span class="def">to control, to rule, to own</span><span class="cf">None</span></button>
-        <button data-sortkey="z" onclick="toggleVisibility(this)"><span class="word">zun'a</span><br><span class="spell">/zuɲa/</span><span class="def">to direct, to lead, to plan, to regulate</span><span class="cf">None</span></button>
-        <button data-sortkey="v" onclick="toggleVisibility(this)"><span class="word">ve'l</span><br><span class="spell">/vəl/</span><span class="def">important, main</span><span class="cf">None</span></button>
-        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">sila'</span><br><span class="spell">/silä/</span><span class="def">big, large, heavy, long, tall</span><span class="cf">None</span></button>
-        <button data-sortkey="z" onclick="toggleVisibility(this)"><span class="word">zek</span><br><span class="spell">/zek/</span><span class="def">little, small, short, few</span><span class="cf">None</span></button>
-        <button data-sortkey="s'" onclick="toggleVisibility(this)"><span class="word">s'ona</span><br><span class="spell">/ʂo̞na/</span><span class="def">know, be skilled in, be wise about, have information on, know how to</span><span class="cf">None</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">uwi</span><br><span class="spell">/uwi/</span><span class="def">to teach, to give knowledge, to guide, to help</span><span class="cf">None</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wi'mi</span><br><span class="spell">/wɪmi/</span><span class="def">to hear, listen; pay attention to, obey</span><span class="cf">None</span></button>
-        <button data-sortkey="i" onclick="toggleVisibility(this)"><span class="word">iR</span><br><span class="spell">/iɹ/</span><span class="def">ear</span><span class="cf">English "ear"</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">mir</span><br><span class="spell">/mir/</span><span class="def">to sleep, to rest</span><span class="cf">Spanish "dormir"</span></button>
-        <button data-sortkey="f" onclick="toggleVisibility(this)"><span class="word">fas'</span><br><span class="spell">/faʂ/</span><span class="def">fun, funny, humoristic</span><span class="cf">English "fun"</span></button>
-        <button data-sortkey="R" onclick="toggleVisibility(this)"><span class="word">Rile</span><br><span class="spell">/ɹile/</span><span class="def">to want, to need, to require, to wish, must, should</span><span class="cf">Toki Pona "wile" ← Dutch "willen"</span></button>
-        <button data-sortkey="f" onclick="toggleVisibility(this)"><span class="word">for'a</span><br><span class="spell">/fo̞ɾa/</span><span class="def">cloth, clothing, fabric, textile, cover</span><span class="cf">None</span></button>
-        <button data-sortkey="v" onclick="toggleVisibility(this)"><span class="word">vi'So</span><br><span class="spell">/vɪʃo̞/</span><span class="def">cold, cool, freezing</span><span class="cf">None</span></button>
-        <button data-sortkey="z'" onclick="toggleVisibility(this)"><span class="word">z'ana'</span><br><span class="spell">/ʒanä/</span><span class="def">uncoocked, raw</span><span class="cf">None</span></button>
-        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'o</span><br><span class="spell">/ʎo̞/</span><span class="def">long and flexible thing, line, cord, hair, rope, thread</span><span class="cf">None</span></button>
-        <button data-sortkey="h" onclick="toggleVisibility(this)"><span class="word">hin</span><br><span class="spell">/hin/</span><span class="def">located at, present at</span><span class="cf">None</span></button>
-        <button data-sortkey="d" onclick="toggleVisibility(this)"><span class="word">da'n</span><br><span class="spell">/dän/</span><span class="def">real, true, yes</span><span class="cf">Russian "да / da"</span></button>
-        <button data-sortkey="b" onclick="toggleVisibility(this)"><span class="word">bi'r'a</span><br><span class="spell">/bɪɾa/</span><span class="def">arm, hand, tactile organ</span><span class="cf">None</span></button>
-        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yuR</span><br><span class="spell">/ɣuɹ/</span><span class="def">to interact, to press</span><span class="cf">None</span></button>
-        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Bi'-am'</span><br><span class="spell">/ʙɪʔaɱ/</span><span class="def">hole, orifice, window</span><span class="cf">None</span></button>
-        <button data-sortkey="i" onclick="toggleVisibility(this)"><span class="word">ima'k</span><br><span class="spell">/imäk/</span><span class="def">door, entrance</span><span class="cf">None</span></button>
-        <button data-sortkey="s'" onclick="toggleVisibility(this)"><span class="word">s'ol</span><br><span class="spell">/ʂo̞l/</span><span class="def">earth, land, outdoors, world, territory, soil</span><span class="cf">English "soil"</span></button>
-        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pa'b</span><br><span class="spell">/päb/</span><span class="def">parent, ancestor, creator, originator, caretaker</span><span class="cf">None</span></button>
-        <button data-sortkey="i" onclick="toggleVisibility(this)"><span class="word">ide'</span><br><span class="spell">/idə/</span><span class="def">to eat, to drink, to consume, to swallow, to ingest</span><span class="cf">None</span></button>
-        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'uko</span><br><span class="spell">/ɱuko̞/</span><span class="def">food</span><span class="cf">Toki Pona "moku" ← Japanese "モグモグ / mogumogu"</span></button>
-        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'a'-o</span><br><span class="spell">/ʎäʔo̞/</span><span class="def">dead, die, dying</span><span class="cf">None</span></button>
-        <button data-sortkey="a'" onclick="toggleVisibility(this)"><span class="word">a'Si</span><br><span class="spell">/äʃi/</span><span class="def">back, behind, rear</span><span class="cf">None</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wi</span><br><span class="spell">/wi/</span><span class="def">(animal noise or communication), (non-speech vocalization)</span><span class="cf">None</span></button>
-        <button data-sortkey="O'" onclick="toggleVisibility(this)"><span class="word">O'an</span><br><span class="spell">/ŋ͡ʘan/</span><span class="def">night sky object, moon</span><span class="cf">None</span></button>
-        <button data-sortkey="N" onclick="toggleVisibility(this)"><span class="word">Nuno</span><br><span class="spell">/ŋuno̞/</span><span class="def">star</span><span class="cf">None</span></button>
-        <button data-sortkey="a'" onclick="toggleVisibility(this)"><span class="word">a'mik</span><br><span class="spell">/ämik/</span><span class="def">glow, brightness, light, radiance, shine, light source</span><span class="cf">None</span></button>
-        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xe'm</span><br><span class="spell">/xəm/</span><span class="def">entretainment, game, playful, recreation, artistic</span><span class="cf">English "game"</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">enum</span><br><span class="spell">/enum/</span><span class="def">number</span><span class="cf">None</span></button>
-        <button data-sortkey="r'" onclick="toggleVisibility(this)"><span class="word">r'ir'e'</span><br><span class="spell">/ɾiɾə/</span><span class="def">unusual, strange, silly</span><span class="cf">None</span></button>
-        <button data-sortkey="j'" onclick="toggleVisibility(this)"><span class="word">j'ale'</span><br><span class="spell">/ʝalə/</span><span class="def">drunk, intoxicated</span><span class="cf">None</span></button>
-        <button data-sortkey="O'" onclick="toggleVisibility(this)"><span class="word">O'ik</span><br><span class="spell">/ŋ͡ʘik/</span><span class="def">hill, mountain</span><span class="cf">None</span></button>
-        <button data-sortkey="j" onclick="toggleVisibility(this)"><span class="word">ja'na</span><br><span class="spell">/jäna/</span><span class="def">bump, button</span><span class="cf">None</span></button>
-        <button data-sortkey="b" onclick="toggleVisibility(this)"><span class="word">be'ki'</span><br><span class="spell">/bəkɪ/</span><span class="def">nose</span><span class="cf">None</span></button>
-        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'om</span><br><span class="spell">/ɲo̞m/</span><span class="def">name</span><span class="cf">Italian "nome"</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">uRo</span><br><span class="spell">/uɹo̞/</span><span class="def">word</span><span class="cf">None</span></button>
-        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'oka'</span><br><span class="spell">/ɱo̞kä/</span><span class="def">foot, leg, organ of locomotion</span><span class="cf">Toki Pona "noka" ← Serbo-Croatian "нога / noga"</span></button>
-        <button data-sortkey="O" onclick="toggleVisibility(this)"><span class="word">Oo-a'm</span><br><span class="spell">/θo̞ʔäm/</span><span class="def">bottom, lower part</span><span class="cf">None</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kor'o</span><br><span class="spell">/ko̞ɾo̞/</span><span class="def">to love, to have compassion for, to respect, to show affection to</span><span class="cf">Japanese "心 / kokoro"</span></button>
-        <button data-sortkey="t" onclick="toggleVisibility(this)"><span class="word">ta'-a</span><br><span class="spell">/täʔa/</span><span class="def">to begin, to start, to turn on</span><span class="cf">None</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">apu</span><br><span class="spell">/apu/</span><span class="def">to open</span><span class="cf">None</span></button>
-        <button data-sortkey="V" onclick="toggleVisibility(this)"><span class="word">Va'r'a</span><br><span class="spell">/ⱱ̟äɾa/</span><span class="def">long hard thing, branch, rod, stick</span><span class="cf">Spanish "barra"</span></button>
-        <button data-sortkey="z" onclick="toggleVisibility(this)"><span class="word">zan</span><br><span class="spell">/zan/</span><span class="def">cereal, grain, barley, corn, oat, rice, wheat, bread, pasta</span><span class="cf">None</span></button>
-        <button data-sortkey="T" onclick="toggleVisibility(this)"><span class="word">Tune'</span><br><span class="spell">/t͡ʃunə/</span><span class="def">give, send, emit, provide</span><span class="cf">None</span></button>
-        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'sa'lin</span><br><span class="spell">/t͡sälin/</span><span class="def">put</span><span class="cf">None</span></button>
-        <button data-sortkey="i'" onclick="toggleVisibility(this)"><span class="word">i'gu</span><br><span class="spell">/ɪgu/</span><span class="def">release</span><span class="cf">None</span></button>
-        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">si-on</span><br><span class="spell">/siʔo̞n/</span><span class="def">heart (physical or emotional), feeling (an emotion, a direct experience)</span><span class="cf">Japanese "心臓 / shinzou"</span></button>
-        <button data-sortkey="h" onclick="toggleVisibility(this)"><span class="word">hili'n</span><br><span class="spell">/hilɪn/</span><span class="def">completed, ended, finished</span><span class="cf">Toki Pona "pini" ← English "finish"</span></button>
-        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xome</span><br><span class="spell">/xo̞me/</span><span class="def">ago, past</span><span class="cf">None</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">mipi</span><br><span class="spell">/mipi/</span><span class="def">bug, insect, ant, spider</span><span class="cf">Toki Pona "pipi" ← Acadian French "bibitte"</span></button>
-        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Zi'ki</span><br><span class="spell">/ʐɪki/</span><span class="def">hip, side, beside, next to, vicinity, nearby</span><span class="cf">None</span></button>
-        <button data-sortkey="z'" onclick="toggleVisibility(this)"><span class="word">z'u~a'l</span><br><span class="spell">/ʒu͡äl/</span><span class="def">container, bag, bowl, box, cup, cupboard, drawer</span><span class="cf">None</span></button>
-        <button data-sortkey="f" onclick="toggleVisibility(this)"><span class="word">fuli'k</span><br><span class="spell">/fulɪk/</span><span class="def">same, similar</span><span class="cf">None</span></button>
-        <button data-sortkey="a'" onclick="toggleVisibility(this)"><span class="word">a'-in</span><br><span class="spell">/äʔin/</span><span class="def">as, like</span><span class="cf">None</span></button>
-        <button data-sortkey="O" onclick="toggleVisibility(this)"><span class="word">Oalo</span><br><span class="spell">/θalo̞/</span><span class="def">fire, to cook, heat source</span><span class="cf">None</span></button>
-        <button data-sortkey="T" onclick="toggleVisibility(this)"><span class="word">Tolik</span><br><span class="spell">/t͡ʃo̞lik/</span><span class="def">outer layer, shell, skin, boundary</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">ni'f</span><br><span class="spell">/nɪf/</span><span class="def">to peel, to cut</span><span class="cf">None</span></button>
-        <button data-sortkey="d" onclick="toggleVisibility(this)"><span class="word">dime'</span><br><span class="spell">/dimə/</span><span class="def">area above, highest part, something elevated, sky</span><span class="cf">None</span></button>
-        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Ba'm</span><br><span class="spell">/ʙäm/</span><span class="def">divine, sacred, supernatural</span><span class="cf">None</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">eSjo</span><br><span class="spell">/eʃjo̞/</span><span class="def">body (of person or animal), physical state, torso</span><span class="cf">None</span></button>
-        <button data-sortkey="j" onclick="toggleVisibility(this)"><span class="word">je'ga</span><br><span class="spell">/jəga/</span><span class="def">round or circular thing, ball, circle, sphere, wheel</span><span class="cf">None</span></button>
-        <button data-sortkey="r" onclick="toggleVisibility(this)"><span class="word">rona</span><br><span class="spell">/ro̞na/</span><span class="def">cycle, of one year</span><span class="cf">Spanish "rueda"</span></button>
-        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xi'm</span><br><span class="spell">/xɪm/</span><span class="def">new, fresh</span><span class="cf">Mandarin "新 / xīn"</span></button>
-        <button data-sortkey="O'" onclick="toggleVisibility(this)"><span class="word">O'a-ig</span><br><span class="spell">/ŋ͡ʘaʔig/</span><span class="def">additional, another, extra</span><span class="cf">None</span></button>
-        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'inbi'n</span><br><span class="spell">/t͡sinbɪn/</span><span class="def">face, foremost, front, wall</span><span class="cf">Cantonese "前邊 / tsin bin"</span></button>
-        <button data-sortkey="T" onclick="toggleVisibility(this)"><span class="word">Title'n</span><br><span class="spell">/t͡ʃitlən/</span><span class="def">image, picture, representation</span><span class="cf">Toki Pona "sitelen" ← Dutch "schlideren"</span></button>
-        <button data-sortkey="i" onclick="toggleVisibility(this)"><span class="word">i~an'a'</span><br><span class="spell">/i͡aɲä/</span><span class="def">symbol, mark</span><span class="cf">None</span></button>
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">Si'Bik</span><br><span class="spell">/ʃɪʙik/</span><span class="def">to write, to scribble, to doodle</span><span class="cf">None</span></button>
-        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">suba'</span><br><span class="spell">/subä/</span><span class="def">horizontal surface, thing to put or rest something on</span><span class="cf">Toki Pona "supa" ← Esperanto "surfaco" ← Acadian French & English "surface"</span></button>
-        <button data-sortkey="r" onclick="toggleVisibility(this)"><span class="word">ra'wi</span><br><span class="spell">/räwi/</span><span class="def">sweet, fragant</span><span class="cf">None</span></button>
-        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">ka'wi</span><br><span class="spell">/käwi/</span><span class="def">cute, innocent, adorable</span><span class="cf">Japanese "かわいい / kawaii"</span></button>
-        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'ama'</span><br><span class="spell">/ʎamä/</span><span class="def">going to, toward, to move, from the perspective of</span><span class="cf">None</span></button>
-        <button data-sortkey="R" onclick="toggleVisibility(this)"><span class="word">Rat'e'</span><br><span class="spell">/ɹat͡sə/</span><span class="def">water, liquid, fluid, wet substance, beverages</span><span class="cf">None</span></button>
-        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yo-un</span><br><span class="spell">/ɣo̞ʔun/</span><span class="def">time, duration, moment, occasion, period, situation</span><span class="cf">None</span></button>
-        <button data-sortkey="h" onclick="toggleVisibility(this)"><span class="word">ha'Sa'</span><br><span class="spell">/häʃä/</span><span class="def">indoor space, building, home, house, room</span><span class="cf">Spanish "casa"</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">oga</span><br><span class="spell">/o̞ga/</span><span class="def">have sexual relations with, sex</span><span class="cf">None</span></button>
-        <button data-sortkey="s'" onclick="toggleVisibility(this)"><span class="word">s'ala'm</span><br><span class="spell">/ʂaläm/</span><span class="def">battle, challenge, compete against, struggle against</span><span class="cf">None</span></button>
-        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Zowi'</span><br><span class="spell">/ʐo̞wɪ/</span><span class="def">bird, flying creature, winged animal</span><span class="cf">None</span></button>
-        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">na's'a</span><br><span class="spell">/näʂa/</span><span class="def">strong, powerful</span><span class="cf">None</span></button>
-        <button data-sortkey="u" onclick="toggleVisibility(this)"><span class="word">uSa'gal</span><br><span class="spell">/uʃägal/</span><span class="def">confident, sure</span><span class="cf">None</span></button>
-        <button data-sortkey="z'" onclick="toggleVisibility(this)"><span class="word">z'a~i'n</span><br><span class="spell">/ʒa͡ɪn/</span><span class="def">energetic, intense</span><span class="cf">None</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">abil</span><br><span class="spell">/abil/</span><span class="def">away, absent, ignored</span><span class="cf">None</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">e~in</span><br><span class="spell">/e͡in/</span><span class="def">͡͡indeed, too, also, as well</span><span class="cf">None</span></button>
-        <button data-sortkey="l" onclick="toggleVisibility(this)"><span class="word">lelo</span><br><span class="spell">/lelo̞/</span><span class="def">͡woman, female, feminine person, wife</span><span class="cf">None</span></button>
-        <button data-sortkey="N" onclick="toggleVisibility(this)"><span class="word">Nole</span><br><span class="spell">/ŋo̞le/</span><span class="def">man, male, masculine person, husband</span><span class="cf">None</span></button>
-        <button data-sortkey="w" onclick="toggleVisibility(this)"><span class="word">wun</span><br><span class="spell">/wun/</span><span class="def">fear, dread</span><span class="cf">None</span></button>
-        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'uk</span><br><span class="spell">/ɲuk/</span><span class="def">threat, danger</span><span class="cf">None</span></button>
-        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">mosta</span><br><span class="spell">/mo̞sta/</span><span class="def">monster, predator</span><span class="cf">English "monster"</span></button>
-        <button data-sortkey="i" onclick="toggleVisibility(this)"><span class="word">iki</span><br><span class="spell">/iki/</span><span class="def">embellishment, spice</span><span class="cf">None</span></button>
-        <button data-sortkey="g" onclick="toggleVisibility(this)"><span class="word">gonSi</span><br><span class="spell">/go̞nʃi/</span><span class="def">non-binary, gender-non-conforming, trans, non-cisgender</span><span class="cf">Toki Pona "tonsi" ← Mandarin "同志 / tóngzhì"</span></button>
-        <button data-sortkey="e" onclick="toggleVisibility(this)"><span class="word">epok</span><br><span class="spell">/epo̞k/</span><span class="def">epic, cool, awesome, amazing</span><span class="cf">Idea by @st1nk_b0mb on Discord, English "epic"</span></button>
-        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Ze'k</span><br><span class="spell">/ʐək/</span><span class="def">split, cut, slice, sever</span><span class="cf">None</span></button>
-        <button data-sortkey="D" onclick="toggleVisibility(this)"><span class="word">Dela'n</span><br><span class="spell">/d͡ʒelän/</span><span class="def">to take, to seize, to catch, to receive, to get</span><span class="cf">None</span></button>
-        <button data-sortkey="d" onclick="toggleVisibility(this)"><span class="word">di'lo</span><br><span class="spell">/dɪlo̞/</span><span class="def">midpoint, medium, mediocre</span><span class="cf">None</span></button>
-        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'amal</span><br><span class="spell">/t͡samal/</span><span class="def">medicine, medical</span><span class="cf">Georgian "წამალი / ts'amali"</span></button>
-        <button data-sortkey="r" onclick="toggleVisibility(this)"><span class="word">rido</span><br><span class="spell">/rido̞/</span><span class="def">eye, ocular, visual</span><span class="cf">None</span></button>
-        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'obi</span><br><span class="spell">/ɱo̞bi/</span><span class="def">goodbye, farewell, see you later</span><span class="cf">None</span></button>
-        <button data-sortkey="R" onclick="toggleVisibility(this)"><span class="word">Rum</span><br><span class="spell">/ɹum/</span><span class="def">spiky, sharp, angle, point, triangular</span><span class="cf">None</span></button>
-        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">oki</span><br><span class="spell">/o̞ki/</span><span class="def">(acknowledgement or acceptance), OK, alright, fine</span><span class="cf">English "okay"</span></button>
-        <button data-sortkey="D" onclick="toggleVisibility(this)"><span class="word">Di~a'dik</span><br><span class="spell">/d͡ʒi͡ädik/</span><span class="def">network, internet, connection</span><span class="cf">Greek "διαδίκτυο"</span></button>
-        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">S~pejo</span><br><span class="spell">/ʃ͡pejo/</span><span class="def">reflect, resound, mirror</span><span class="cf">Spanish "espejo"</span></button>
-        <button data-sortkey="j'" onclick="toggleVisibility(this)"><span class="word">j'ela'</span><br><span class="spell">/ʝelä/</span><span class="def">guilt, shame, disgrace</span><span class="cf">None</span></button>
-        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">a'n~klug</span><br><span class="spell">/än͡klug/</span><span class="def">to accuse, to single out, to expose, to dishonor, to embarrass</span><span class="cf">German "anklagen"</span></button>
-        <button data-sortkey="j'" onclick="toggleVisibility(this)"><span class="word">j'ol</span><br><span class="spell">/ʝo̞l/</span><span class="def">old, aged, ancient</span><span class="cf">None</span></button>
-        <button data-sortkey="r'" onclick="toggleVisibility(this)"><span class="word">r'a'ki</span><br><span class="spell">/ɾäki/</span><span class="def">animal, beast, land mammal</span><span class="cf">None</span></button>
-        <button data-sortkey="z" onclick="toggleVisibility(this)"><span class="word">ze'ti</span><br><span class="spell">/zəti/</span><span class="def">to produce a sound; recite, utter aloud</span><span class="cf">None</span></button>
-    </div>
-    <div id="infoShow" class="hide">
-        <button id="close" onclick="closeElement()">x</button>
-        <span class="name">word</span><br>
-        <span class="wspell">word spelling</span>
-        <p class="definition">definition</p><br>
-        <span class="otext">Origin </span><span class="small">of pronounciation and (sometimes) definition</span><br>
-        <p class="origin">origin</p>
-         
-    </div>
-    <span id="end"><a href="https://discord.gg/zjvcEZNFwC" target="_blank">Discord Server</a> • <a href="https://zhyov.github.io/eta-xas-nesin/guide.html">e'ta xas Guide</a></span>
-    <script src="script.js"></script>
+    <span id="end"><a href="https://discord.gg/zjvcEZNFwC" target="_blank">Discord Server</a> • <a href="https://zhyov.github.io/eta-xas-pu-yape-Don/dictionary.html">e'ta xas Dictionary</a></span>
 </body>
 </html>
